@@ -1,0 +1,2 @@
+-- Academic Survival SQL Analysis
+SELECT Target_Dropout_Next_Sem dropout_event, COUNT(*) records, ROUND(AVG(Sem_GPA),2) avg_gpa, ROUND(AVG(Attendance),2) avg_attendance, ROUND(AVG(LMS_Logins),2) avg_lms_logins, ROUND(AVG(Work_Hours),2) avg_work_hours, ROUND(AVG(Financial_Stress),2) avg_financial_stress, ROUND(AVG(Failed_Courses),2) avg_failed_courses FROM student_semesters GROUP BY Target_Dropout_Next_Sem;

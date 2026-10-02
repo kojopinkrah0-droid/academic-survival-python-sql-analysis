@@ -1,0 +1,4 @@
+__pycache__/
+.ipynb_checkpoints/
+academic_survival.db
+.DS_Store
